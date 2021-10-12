@@ -1,4 +1,3 @@
-local UI = require "ui"
 local TextureC = include "mi-eng/lib/TextureC_engine"
 
 engine.name = "TextureC"
@@ -7,7 +6,6 @@ function init()
 
   -- Add params
   TextureC.add_params()
-  TextureC.add_lfo_params()
 
   -- initialize params
   params:set("pitch", 0)
